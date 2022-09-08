@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+
+}
+/* nav */
+.nav {
+    height: 50px;
+    background-color: #2b2b2b;
+    text-align: center;
+    font-size: 0;
+}
+.nav-item {
+    display: inline-block;
+}
+.nav-item a {
+    padding: 0 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: color .3s;
+    
+}
+.nav-item a:hover {
+    color: rgb(119, 119, 240);
+}
+/* header */
+.header-wallpaper-jpg {
+    position: relative;
+    height: 300px;
+    background-image: url(../img/iceland.jpg);
+    background-position: 0 -50px;
+    background-size: cover;
+}
+.header-wallpaper-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+.header-wallpaper-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+}
+.header-wallpaper-text h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px;
+    letter-spacing: 2px;
+}
+.header-wallpaper-text p {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 0 0 2px;
+    letter-spacing: 2px;
+}
+/* main */
+main {
+    width: 1200px;
+    margin: 40px auto;
+}
+main h2 {
+    margin-bottom: 30px;
+    text-transform:uppercase;
+    text-align: center;  
+}
+.about-us-box {
+    margin: 30px 0;
+    position: relative;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.top {
+    background-image: url(../img/bussiness.jpg);
+}
+.middle {
+    background-image: url(../img/laptop.jpg);
+}
+.bottom {
+    background-image: url(../img/seo.jpg);
+}
+.about-us-text {
+    position: absolute;
+    bottom: 20px;
+    padding: 20px 40px;
+    color: #fff;    
+}
+.about-us-text h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 1.1px;
+}
+.about-us-bg {
+    position: absolute;
+    bottom: 0;
+    height: 45%;
+    width: 100%;
+    background-color: rgba(0,0,0,.7);
+}
+
+
+/* footer */
+footer {
+    height: 80px;
+    line-height: 80px;
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.icon-box {
+    margin-left: 60px;
+}
+.icon-box a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: white;
+    transition: text-shadow .3s, font-size .3s;
+}
+.icon-box a:hover {
+    font-size: 21px;
+    text-shadow: 0 0 3px;
+}
+
+
+/* service.html */
+
+.price-list-box {
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;    
+}
+.price-list-box li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+/* price-list.html */
+.price-list-table {
+    margin: 20px auto;
+    text-align: center;
+}
+.price-list-table th {  
+    letter-spacing: 2px;  
+}
+.price-list-table td {
+    padding: 20px;
+    padding-bottom: 5px;    
+}
+
+/* contact.html */
+.contact {
+    font-size: 22px;
+    text-align: center;
+    margin: 20px;
+}
+.fa-solid {
+    margin: 0 20px;
+}
