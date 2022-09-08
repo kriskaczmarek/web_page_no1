@@ -1,0 +1,1 @@
+simple web page with price list, accesible services and contact
